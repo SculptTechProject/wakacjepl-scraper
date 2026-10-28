@@ -14,7 +14,7 @@ sessions you are authorized to access, respect the service's terms and request
 limits, and stop when access is denied. There is no authentication, CAPTCHA,
 TLS or rate-limit bypass.
 
-![Saved All Inclusive flight offers queried in DataGrip](docs/images/datagrip-offers.jpg)
+![Saved All Inclusive flight offers queried in DataGrip](docs/images/datagrip-offers.png)
 
 *Actual local SQLite data in DataGrip. Prices were observed on 16–18 October
 2026; this is a historical sample, not a live availability check.*
@@ -94,7 +94,7 @@ Observations span `2026-10-16T20:46:47.117Z` to
 API inventory. The database and traffic captures are deliberately excluded from
 Git; the offline demo is reproducible from source.
 
-![Observation counts and collection status in DataGrip](docs/images/datagrip-coverage.jpg)
+![Observation counts and collection status in DataGrip](docs/images/datagrip-coverage.png)
 
 To inspect either database in DataGrip, add a **SQLite** data source and select
 its file. The schema is in `main`. Open [docs/queries.sql](docs/queries.sql) for
