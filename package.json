@@ -1,0 +1,28 @@
+{
+  "name": "wakacjepl-scraper",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "scrape": "bun run index.ts --collect --by-country",
+    "deals": "bun run index.ts --deals",
+    "stats": "bun run index.ts --stats",
+    "test": "bun test",
+    "typecheck": "bun check",
+    "demo": "bun run examples/demo.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.3",
+    "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "tough-cookie": "^6.0.2"
+  },
+  "version": "0.1.0",
+  "description": "Educational travel offer collection and price analysis with Bun, TypeScript and SQLite.",
+  "packageManager": "bun@1.4.3",
+  "engines": {
+    "bun": ">=1.4.3"
+  }
+}

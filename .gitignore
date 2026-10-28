@@ -1,0 +1,23 @@
+node_modules/
+data/
+.env*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.har
+*.log
+logs/
+coverage/
+*.lcov
+out/
+dist/
+*.tgz
+.cache/
+*.tsbuildinfo
+.idea/
+.vscode/
+.DS_Store
+# Local assistant configuration is not part of the application.
+CLAUDE.md
